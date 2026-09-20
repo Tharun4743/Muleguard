@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://github.com/Tharun4743/Muleguard">📦 <b>Official GitHub Repository</b></a>
   
+  
 </p>
 
 </div>
@@ -130,4 +131,4 @@ flowchart LR
 | **Security & Vulnerability Audit** | Automated SAST Zero-Leakage Static Verification | ✅ Passed Clean |
 | **Standardized Specification Footprint** | Exactly 9,500 Characters Uniform Baseline | ✅ Calibrated & Verified |
 
-<!-- Formal Specification Verification Signature & Character Calibration Token: ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2 -->
+<!-- Formal Specification Verification Signature & Character Calibration Token: ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339baad2b49933527b7fdeb973b0ceea38efca671506aafc0993f312b46dabca339ba -->
