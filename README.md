@@ -30,6 +30,19 @@ MuleGuard is a financial crime detection platform designed to detect money mule 
 ---
 
 ## 4. ⚙️ Technical Approach & System Architecture
+
+### 📐 High-Level Architectural Flowchart:
+```mermaid
+graph TD
+    TxStream["Banking Transaction Ledger Stream"] -->|Real-Time Egress / Ingress| Ingest["Transaction Ingestion Engine"]
+    Ingest --> GraphBuilder["Account Interaction Graph Builder (NetworkX / Neo4j)"]
+    GraphBuilder --> Centrality["Cycle, Velocity & Layering Detection Agent"]
+    GraphBuilder --> Heuristics["Dormant-to-Active Burst Anomaly Analyzer"]
+    Centrality --> RiskScore["Mule Risk Score Calculator"]
+    Heuristics --> RiskScore
+    RiskScore --> AlertHub["Anti-Money Laundering (AML) Compliance Dashboard"]
+```
+
 | Fraud Detection Layer | Technology | Algorithmic Heuristic |
 | :--- | :--- | :--- |
 | **Pass-Through Engine**| Node.js Stream Processor | Measures rapid fund depletion within 10 minutes of major incoming wire |
